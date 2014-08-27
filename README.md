@@ -1,4 +1,6 @@
 test_repo
 =========
 
-My first attempt at creating a repo
+This is my first repo.
+sambiddle@gmail.com
+@samfbiddle

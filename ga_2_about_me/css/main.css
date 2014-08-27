@@ -1,0 +1,38 @@
+body {
+
+	background-image: url('file:///Users/sambiddle/Desktop/GA/ga_2_about_me/img/bg2.jpg');
+	background-size: cover;
+}
+
+.bio {
+  font-size: 30px;
+  font-family: "Didot";
+  color: white;
+
+}  
+
+.MoreInfo {
+	font-size: 20px;
+ 	font-family: "Helvetica";
+ 	color: white;
+
+ }
+  
+
+
+
+#IntroHeader {
+  font-family: "Helvetica";
+  font-size: 60px;
+  font-weight: bold;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+a:link {
+    font-style: italic;
+    color: #FFFFFF;
+}
+
+a:visited {
+    color: #FFFFFF;
+}

@@ -1,7 +1,56 @@
 #header {
-	font-family: "HelveticaNeue"
+	font-family: "Lato", sans-serif;
 	color: red;
 	font-size: 40px;
-	font-weight: 
 	font-weight: 100;
+	margin-left: 20px;
+}
+
+#subheader {
+	font-family: "Lato", sans-serif;
+	font-size: 20px;
+	font-weight: 100;
+	margin-left: 20px;
+}
+
+
+
+#topnav {
+	padding: 10px;
+	font-family: "Lato", sans-serif;
+	font-size: 25px;
+	font-weight: 100;
+	
+
+}
+
+#topnav a {
+	margin-right: 10px;
+}
+
+
+p {
+	font-family: "Lato", sans-serif;
+
+}
+
+.continue {
+	color: red;
+	font-family: "Lato", sans-serif;
+	float: right;
+}
+
+.date {
+	color: gray;
+	font-family: "Lato", sans-serif;
+	font-size: 30px;
+	font-weight: 100;
+
+}
+
+.postTitle {
+	font-family: "Lato", sans-serif;
+	font-size: 30px;
+	font-weight: 300;
+
 }

@@ -2,13 +2,14 @@ body {
 
   font-family: 'lato', sans-serif;
   font-size: 18px;
+  font-weight: 200;
   margin-right: 200px;
   margin-left: 200px;
 }
 
 p#firstpara:first-letter{ 
   float: left; 
-  color: grey; 
+  color: #CCCCCC; 
   font-size: 4em; 
   line-height: 60px; 
   padding-top: 4px; 
@@ -17,52 +18,50 @@ p#firstpara:first-letter{
 
 p#secondpara:first-letter{ 
   float: left; 
-  color: grey; 
+  color: #CCCCCC; 
   font-size: 4em; 
   line-height: 60px; 
   padding-top: 4px; 
   padding-right: 8px; 
-  padding-left: 3px; }
+  padding-left: 3px; 
+}
 
 
 #header {
-	color: #DC143C;
-	font-size: 2.5em;
-	font-weight: 100;
+	color: #DF3C31;
+	font-size: 3em;
+	font-weight: 300;
+	margin-bottom: 10px;
 }
 
 #subheader {
 	font-size: 1.4em;
-	font-weight: 100;
-}
-
-#topnav {
-	padding: 10px;
-	font-size: 1.1em;
-	font-weight: 100;
-
+	font-weight: 200;
+	margin-top: 0px;
 }
 
 #topnav a {
-	margin-right: 10px;
-  color: gray;
+  font-size: 1.1em;
+  font-weight: 100;
+  margin-right: 10px;
+  color: #DFDFDF;
   padding-bottom: 2px;
   text-decoration: none;
-  border-bottom: 2px solid grey;
+  border-bottom: 2px solid #DFDFDF;
 }
 
-
 .continue {
-	color: red;
-	float: right;
+	color: crimson;
+	display: block;
+	text-align: right;
+	font-weight: 900;
 }
 
 .date {
-	color: gray;
+	color: #CCCCCC;
 	font-size: 2em;
-	font-weight: 100;
+	font-weight: 200;
   margin-bottom: 7px;
-
 }
 
 .postTitle {
@@ -71,18 +70,16 @@ p#secondpara:first-letter{
 	font-weight: 300;
   margin-top: 7px;
   margin-bottom: 15px;
-
-}
-
-.heroImage {
-  height: 300px;
-  width: 100%;
-  background-color: gray;
 }
 
 #bottomnav a {
   color: crimson;
-  font-weight: 100;
+  font-weight: 200;
   font-size: .8em;
   text-decoration: none;
+}
+
+#copyright {
+	font-weight: 200;
+	color: grey;
 }

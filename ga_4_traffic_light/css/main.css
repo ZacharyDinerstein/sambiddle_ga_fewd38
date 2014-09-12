@@ -3,7 +3,7 @@
   background-color: black;
   height: 700px;
   width: 300px;
-  padding: 10px;
+  padding: 20px;
 }
 
 .green {
@@ -13,7 +13,7 @@
   height: 200px;
   border-radius: 50%;
   margin: 0 auto;
-  margin-top: 20px;
+  margin-top: 30px;
 
 }
 
@@ -24,7 +24,7 @@
   height: 200px;
   border-radius: 50%;
   margin: 0 auto;
-  margin-top: 20px;
+  margin-top: 30px;
 
 }
 
@@ -35,5 +35,23 @@
   height: 200px;
   border-radius: 50%;
   margin: 0 auto;
-  margin-top: 20px;
+  margin-top: 30px;
+  
 }
+
+.red:hover {
+  opacity: 1;
+   border: 1px solid;
+    box-shadow: 0 0 30px red;
+}
+
+.yellow:hover {
+  opacity: 1;
+  border: 1px solid;
+  box-shadow: 0 0 30px yellow;
+}
+
+.green:hover {
+  opacity: 1;
+  border: 1px solid;
+  box-shadow: 0 0 30px green;

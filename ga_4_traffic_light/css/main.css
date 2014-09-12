@@ -1,0 +1,39 @@
+#box {
+  position: relative;
+  background-color: black;
+  height: 700px;
+  width: 300px;
+  padding: 10px;
+}
+
+.green {
+  background-color: green;
+  opacity: .3;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: 20px;
+
+}
+
+.red {
+  background-color: red;
+  opacity: .3;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: 20px;
+
+}
+
+.yellow {
+  background-color: yellow;
+  opacity: .3;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: 20px;
+}

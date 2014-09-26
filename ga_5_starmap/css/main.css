@@ -1,0 +1,19 @@
+#nightsky {
+    width: 900px;
+    height: 900px;
+    background-color: black;
+}
+.star {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    border-radius: 50%;
+    height: 5px;
+    width: 5px;
+    background-color: yellow;
+    opacity: .6;
+}
+.star:hover {
+    opacity: 1;
+    cursor: pointer;
+}

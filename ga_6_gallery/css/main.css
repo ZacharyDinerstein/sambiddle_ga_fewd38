@@ -9,16 +9,18 @@ body {
 	height: 80px;
 }
 
-#mainImg img {
-	width: 100%;
+#mainImageContainer img {
+	position: absolute;
+	height: auto;
+	width: auto;
 
 }
 
 #mainContainer{
     position: relative;
-    height: 700px;
-    width: 100%;
-    background-color: gray;
+    height: auto;
+    width: auto;
+    background-color: white;
 }
 
 .thumb {
@@ -28,7 +30,7 @@ body {
 	background-color: black;
 	cursor: pointer;
 	overflow: hidden;
-	border: 2px white solid;
+	border: 2px grey solid;
 }
 
 .thumb img {
@@ -40,6 +42,7 @@ body {
 }
 
 .btn {
+	float: right;
 	position: relative;
 	background-color: black;
 	padding: 20px;

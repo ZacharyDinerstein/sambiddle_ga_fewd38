@@ -1,24 +1,31 @@
 var userChoice = "rock";
-var computerChouce = "paper";
+var computerChoice = "paper";
 var winner;
-
 
 var userWins = ["rockscissors", "paperrock", "scissorspaper"];
 
+var choices = ["rock", "paper", "scissors"]
+
+computerChoice = choices[Math.random()*choices.length]
 
 function evaluate() {
-if(userChoice===computerChoice) {
-	alert("Tie!");
-} else {
-	
-	var outcome = userChoice + computerChoice;
+	var msg = "Computer wins!";
 
-	$.each(userWins, function(index, value) {
-	if(outcome==value){
-		alert("You win!")
-		return false;
-		} else {
-		alert("You lose!")
-		}
+	if(userChoice===computerChoice) {
+		alert("Tie!");
+	} else {
 	
-	});
+		var outcome = userChoice + computerChoice;
+		$.each(userWins, function(index, value) {
+			if(outcome==value){
+				msg = "You win!"
+			}
+		});
+
+	return msg;
+
+	}
+}
+
+var outcomeMsg = evaluate();
+alert(outcomeMsg);//
